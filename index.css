@@ -1,8 +1,13 @@
 body {
+  flex-direction: row;
   font-family: Tahoma, sans-serif;
   justify-content: center;
   
 }
 .btn-flex {
+  padding:8px;
   display: flex;
+  gap:8px
+  color:#f1f1f1;
+  border-radius:12px;
 }
